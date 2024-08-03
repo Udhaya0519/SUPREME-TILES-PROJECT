@@ -19,7 +19,13 @@ a {
 
 /* header starts */
 
-
+.head {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 1000;
+        background-color: white;
+}
 .head-wrapper {
     display: flex;
     justify-content: space-between;
@@ -62,8 +68,25 @@ a {
 
 /* header ends */
 
+.alert-banner{
+    text-align: center;
+    padding: 15px 20px;
+    background-color: #2C5BB2;
+    margin-top: 85px;
+
+}
+.alert-banner>h4{
+    color: #fff;
+}
+
+
 
 @media screen and (max-width:1000px){
+
+
+    .head{
+        padding-bottom: 50px;
+    }
     .head-wrapper>div:nth-child(3){
         display: none;
     }
@@ -81,6 +104,13 @@ a {
     }
     .head-wrapper>div:nth-child(4)>div>input{
         width: 100%;
+    }
+
+    .alert-banner{
+        margin-top: 135px;
+    }
+    .alert-banner>h4{
+        display: inline;
     }
 
 }
