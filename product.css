@@ -1,0 +1,78 @@
+
+
+
+/* productbanner starts */
+
+
+.productbanner-wrapper{
+    background-image: url(./products\ banner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 750px;
+    text-align: center;
+    align-content: center;
+}
+.productbanner-wrapper>h2{
+    color: white;
+    font-size: 95px;
+    letter-spacing: 10px;
+    text-shadow: 0 0 20px #000;
+    
+}
+.productbanner-wrapper>p{
+    color: white;
+    font-size: 30px;
+    text-shadow: 0 0 20px #000;
+}
+
+/* productbanner ends */
+
+
+/* para banner starts */
+.para-wrapper{
+    padding: 40px 10px;
+}
+.para-wrapper>p{
+    font-size: 22px;
+    font-family: "poppins", sans-serif;
+
+}
+
+
+
+
+
+
+
+/* para banner ends */
+
+
+
+
+
+@media screen and (max-width:1000px){
+    .productbanner-wrapper>h2{
+        font-size: 60px;
+    }
+    .productbanner-wrapper>p{
+        font-size: 25px;
+    }
+    
+
+
+@media screen and (max-width:450px){
+    .productbanner-wrapper>h2{
+        font-size: 40px;
+    }
+    .productbanner-wrapper>p{
+        font-size: 20px;
+    }
+    .para-wrapper>p{
+        font-size: 15px;
+    }
+
+
+}
+
