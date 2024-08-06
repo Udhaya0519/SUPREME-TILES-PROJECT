@@ -665,22 +665,9 @@
 
 
 
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* footer ends */
+
+
 
 
 
@@ -702,8 +689,8 @@
     .head-wrapper>div:nth-child(4)>div{
         position: absolute;
         top: 90%;
-        left: 25%;
-        width: 50%;
+        left: 10%;
+        width: 80%;
     }
     .head-wrapper>div:nth-child(4)>div>input{
         width: 100%;
@@ -757,6 +744,7 @@
 
 
 @media screen and (max-width:450px){
+
     .carousel-caption>h2{
         font-size: 34px;
         letter-spacing: 2px;
@@ -806,6 +794,7 @@
 
     .head-wrapper>div:nth-child(4)>div>input{
         display: none;
+    }
         
     .head-wrapper>div:nth-child(4)>div{
         border: none;
