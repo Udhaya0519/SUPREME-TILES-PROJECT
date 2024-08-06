@@ -580,11 +580,6 @@
     margin: 0;
     margin-bottom: 1px;
 }
-.foot-wrapper>div:nth-child(1)>div>div:nth-child(2),
-.foot-wrapper>div:nth-child(1)>div>div:nth-child(3){
-    /* display: flex;
-    align-items: center; */
-}
 .foot-wrapper>div:nth-child(1)>div>div:nth-child(3)>a{
     color: white;
     text-decoration: none;
@@ -635,7 +630,6 @@
 
 .docker>p{
     color: white;
-    margin: ;
 }
 
 
