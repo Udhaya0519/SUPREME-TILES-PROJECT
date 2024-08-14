@@ -1,0 +1,283 @@
+
+
+
+/* contact banner starts */
+
+
+
+.contactbanner{
+    margin-top: 85px;
+    background-color: black;
+
+}
+.contactbanner-wrapper{
+    padding: 80px 0;
+    color: #fff;
+    max-width: 900px;
+    text-align: center;
+    margin: 0 auto;
+
+
+}
+.contactbanner-wrapper>h1{
+    font-size: 65px;
+    font-weight: 700;
+    letter-spacing: 4px;
+    margin-bottom: 20px;
+}
+.contactbanner-wrapper>p{
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 1px;
+
+    
+}
+
+/* contact banner ends */
+
+
+/* search section starts */
+
+.search{
+    background-color: #e6e6e6;
+}
+.search-wrapper{
+    padding: 70px 15px;
+    text-align: center;
+}
+.search-wrapper>h4{
+    font-size: 25px;
+    font-weight: 700;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+
+}
+.search-wrapper>div>input{
+    border-radius: 5px;
+    box-shadow: none;
+    border: 1px solid;
+    padding: 5px 5px;
+    width: 200px;
+    font-weight: 500;
+}
+.search-wrapper>div>input:focus{
+    outline-color: black;
+    box-shadow: none;
+}
+
+.search-wrapper>div>select{
+    border-radius: 5px;
+    padding: 5px 5px;
+    width: 200px;
+    font-weight: 500;
+    color: gray;
+
+}
+.search-wrapper>div>select:focus{
+    outline-color: black;
+    box-shadow: none;
+
+}
+.search-wrapper>div>a{
+    background-color: black;
+    color: #fff;
+    text-decoration: none;
+    padding: 6px 30px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+
+
+}
+
+/* search section ends */
+
+
+
+
+.contactform{
+    background-color: #c6c6c6;
+    padding: 40px 10px;
+    width: 100%;
+}
+.contactform-wrapper{
+    background-color: #fff;
+    padding: 30px 30px;
+    max-width: 621px;
+    margin: 0 auto;
+    border: 2px solid;
+    border-radius: 10px;
+}
+.contactform-wrapper>h4{
+    font-size: 25px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.contactform-wrapper>label{
+    display: block;
+    margin-top: 20px;
+
+}
+.contactform-wrapper>input{
+    display: block;
+    border-radius: 5px;
+    border: 2px solid;
+    width: 100%;
+    height: 35px;
+
+}
+.contactform-wrapper>input:focus{
+    outline-color: black;
+    box-shadow: none;
+}
+.contactform-wrapper>input:nth-child(13){
+    height: 100px;
+}
+
+.contactform-wrapper>div:nth-child(14){
+    margin: 10px 0;
+}
+
+.contactform-wrapper>div:nth-child(14)>input{
+    display: inline;
+    width: 30px;
+}
+.contactform-wrapper>p{
+    font-weight: 400;
+}
+.contactform-wrapper>div:nth-child(14)>p{
+    display: inline;
+}
+.contactform-wrapper>button{
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    background-color: black;
+    padding: 10px 40px;
+    border: none;
+    border-radius: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* mediaquery starts */
+
+@media screen and (max-width: 1000px){
+    .contactbanner{
+        margin-top: 135px;
+    }
+    .contactbanner-wrapper{
+        padding: 40px 30px;
+    }
+
+
+
+
+
+}
+
+@media screen and (max-width: 600px){
+    .contactbanner-wrapper>h1{
+        font-size: 35px;
+
+    }
+    .contactbanner-wrapper>p{
+        font-size: 18px;
+    }
+    .search-wrapper>div>input,
+    .search-wrapper>div>select,
+    .search-wrapper>div>a{
+        display: block;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+
+
+
+}
+
+
+
+
+
+
+
+
+/* mediaquery ends */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

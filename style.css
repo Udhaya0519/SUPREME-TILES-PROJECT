@@ -672,8 +672,33 @@
         padding-bottom: 50px;
     }
     .head-wrapper>div:nth-child(3){
-        display: none;
+        position: absolute;
+        flex-direction: column;
+        text-align: center;
+        background-color: #fff;
+        left: -50%;
+        top: 80%;
+        width: 50%;
+        height: 100vh;
+        z-index: 1000;
+        padding: 30px 15px;
     }
+    .head-wrapper>div:nth-child(3)>a{
+        /* position: relative; */
+        border-bottom: 0.02em solid gray;
+        height: 40px;
+
+    }
+    /* .head-wrapper>div:nth-child(3)>a::after{
+        position: absolute;
+        content: '';
+        background-color: black;
+        width: 505px;
+        height: 1px;
+        left: -250px;
+        bottom: -15px;
+    } */
+
     .head-wrapper>div:nth-child(4)>a>span{
         display: none;
     }
