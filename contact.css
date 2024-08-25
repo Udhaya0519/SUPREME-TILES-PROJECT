@@ -133,8 +133,12 @@
     outline-color: black;
     box-shadow: none;
 }
-.contactform-wrapper>input:nth-child(13){
+.contactform-wrapper>textarea:nth-child(13){
     height: 100px;
+    width: 100%;
+    border-radius: 5px;
+    border: 2px solid;
+    padding: 5px;
 }
 
 .contactform-wrapper>div:nth-child(14){
@@ -248,6 +252,17 @@
 
 
 }
+
+@media (max-width:313px){
+   
+    main{
+        overflow-x: hidden;
+    }
+    
+
+}
+
+    
 
 
 

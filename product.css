@@ -10,23 +10,30 @@
     background-position: center;
     background-repeat: no-repeat;
     width: 100%;
-    height: 750px;
-    text-align: center;
-    align-content: center;
+    height: 100vh;
 }
-.productbanner-wrapper>h2,
-.servicesbanner-wrapper>h2{
+.productbanner-wrapper>div,
+.servicesbanner-wrapper>div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    height: 100vh;
+}
+.productbanner-wrapper>div>h2,
+.servicesbanner-wrapper>div>h2{
     color: white;
     font-size: 95px;
     letter-spacing: 10px;
     text-shadow: 0 0 20px #000;
-    
+    text-align: center;
 }
-.productbanner-wrapper>p,
-.servicesbanner-wrapper>p{
+.productbanner-wrapper>div>p,
+.servicesbanner-wrapper>div>p{
     color: white;
     font-size: 30px;
     text-shadow: 0 0 20px #000;
+    text-align: center;
 }
 
 /* productbanner ends */
@@ -64,11 +71,11 @@
 
 .servicesbanner-wrapper{
     background-image: url(./servicesbanner.jpg);
-    background-size: cover;
+    background-size: cover; 
     background-position: center;
     background-repeat: no-repeat;
     width: 100%;
-    height: 750px;
+    height: 100vh;
     text-align: center;
     align-content: center;
 }
@@ -127,14 +134,14 @@
 
 
 @media screen and (max-width:1000px){
-    .productbanner-wrapper>h2{
+    .productbanner-wrapper>div>h2{
         font-size: 60px;
     }
-    .productbanner-wrapper>p,
-    .servicesbanner-wrapper>p{
+    .productbanner-wrapper>div>p,
+    .servicesbanner-wrapper>div>p{
         font-size: 25px;
     }
-    .servicesbanner-wrapper>h2{
+    .servicesbanner-wrapper>div>h2{
         font-size: 45px;
         letter-spacing: 5px;
     }
@@ -173,17 +180,17 @@
 
 
 @media screen and (max-width:450px){
-    .productbanner-wrapper>h2{
+    .productbanner-wrapper>div>h2{
         font-size: 40px;
     }
-    .productbanner-wrapper>p,
-    .servicesbanner-wrapper>p{ 
+    .productbanner-wrapper>div>p,
+    .servicesbanner-wrapper>div>p{ 
         font-size: 20px;
     }
     .para-wrapper>p{
         font-size: 15px;
     }
-    .servicesbanner-wrapper>h2{
+    .servicesbanner-wrapper>div>h2{
         font-size: 10vw;
         letter-spacing: 0px;
     }
@@ -195,4 +202,15 @@
     }
 }
 
+
+@media (max-width:313px){
+    
+    main{
+        overflow-x: hidden;
+    }
+    
+
+}
+
+    
 

@@ -318,18 +318,15 @@
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* media query ends */
+
+@media (max-width:313px){
+    
+    main{
+        overflow-x: hidden;
+    }
+    
+
+}
+
+    
