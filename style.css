@@ -528,6 +528,7 @@
 @media screen and (max-width:790px){
     .socialmedia-wrapper>div{
         flex-wrap: wrap;
+        justify-content: center;
     }
     
 }
